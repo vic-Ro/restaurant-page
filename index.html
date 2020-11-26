@@ -5,72 +5,179 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="img/favicon.png">
   <script type="text/javascript" src='main.js' defer></script>
-  <title>Document</title>
+  <title>Maximmus Pizzeria</title>
 </head>
-<body>
+<body id='body'>
   <img src="img/logo.svg" alt="" id="logo">
-  <nav id='nav'>
-     <!-- <ul class="main-menu">
-      <li class="main-menu__item">Home</li>
-      <li class="main-menu__item">Our pizzas</li>
-      <li class="main-menu__item">Contact</li>
-    </ul> -->
-  </nav>
-  <main class="" id="content">
-    <h1 class="title">WE ARE MAXIMMUS</h1>
-    <p class="subtitle">The pizzeria was born with the desire to create a piece of Naples in Sabadell (Barcelona).</p>
-    <section class="video-content">
-      <div class="video-container">
-        <iframe src="https://player.vimeo.com/video/288503359" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-      </div>
-    </section>
-    <section class="page-content">
-      <h2 class="section-title">SLOW PIZZA, HIGH QUALITY FOOD</h2>
-      <ul class="products-list">
-        <li class="products-list__item">
-          <img src="img/pizza.svg" alt="" class="product-item">
-          <span class="product-item__title">
-            PIZZAS HANDMADE
-          </span>
-          <p class="product-item__description">
-            Our pizzas are really handmade. Don't expect a pizza with a perfect circumference. We have 23 different pizzas waiting for you. Decide your favorite!
-          </p>
+  <nav id='nav'></nav>
+  <main id="content">
+    <!-- <h1 class="title">Our Pizzas</h1>
+    <h2 class="subtitle"></h2>
+    <section class='menu-container'>
+      <ul class="menu-cards">
+        <li class="card">
+          <div class="card-division">
+            <img src="img/pizzas/carbonara.png" alt="" class='card-img'>
+          </div>
+          <div class="card-division">
+            <h3 class="card-title">Forcella</h3>
+            <span class="card-description">Ligera pero deliciosa ¡Novedad en Maximmus!</span>
+            <hr class="card-hr">
+            <h5 class="card-subtitle">Ingredientes</h5>
+            <p class="card-ingredients">Salame napoletano, champiñones, tomate tipo San Marzano, mozzarella Fior di Latte Campana, albahaca i aceite de oliva virgen extra.</p>
+            <span class="card-price">12,75€</span>
+          </div>
         </li>
-        <li class="products-list__item">
-          <img src="img/salad.svg" alt="" class="product-item">
-          <span class="product-item__title">
-            SALADS
-          </span>
-          <p class="product-item__description">
-            Add a healthy touch with our salads with top quality products. We have 4 different salads.
-          </p>
+        <li class="card">
+          <div class="card-division">
+            <img src="img/pizzas/carbonara.png" alt="" class='card-img'>
+          </div>
+          <div class="card-division">
+            <h3 class="card-title">Forcella</h3>
+            <span class="card-description">Ligera pero deliciosa ¡Novedad en Maximmus!</span>
+            <hr class="card-hr">
+            <h5 class="card-subtitle">Ingredientes</h5>
+            <p class="card-ingredients">Salame napoletano, champiñones, tomate tipo San Marzano, mozzarella Fior di Latte Campana, albahaca i aceite de oliva virgen extra.</p>
+            <span class="card-price">12,75€</span>
+          </div>
         </li>
-        <li class="products-list__item">
-          <img src="img/wine.svg" alt="" class="product-item">
-          <span class="product-item__title">
-            DRINKS
-          </span>
-          <p class="product-item__description">
-            Soft drinks, beers or wines. Decide your favorite drink according to the occasion and enjoy!
-          </p>
+        <li class="card">
+          <div class="card-division">
+            <img src="img/pizzas/carbonara.png" alt="" class='card-img'>
+          </div>
+          <div class="card-division">
+            <h3 class="card-title">Forcella</h3>
+            <span class="card-description">Ligera pero deliciosa ¡Novedad en Maximmus!</span>
+            <hr class="card-hr">
+            <h5 class="card-subtitle">Ingredientes</h5>
+            <p class="card-ingredients">Salame napoletano, champiñones, tomate tipo San Marzano, mozzarella Fior di Latte Campana, albahaca i aceite de oliva virgen extra.</p>
+            <span class="card-price">12,75€</span>
+          </div>
         </li>
-        <li class="products-list__item">
-          <img src="img/cupcake.svg" alt="" class="product-item">
-          <span class="product-item__title">
-            COFFE AND DESSERTS
-          </span>
-          <p class="product-item__description">
-            Shall we finish with something sweet? Our desserts will not leave you indifferent.
-          </p>
+        <li class="card">
+          <div class="card-division">
+            <img src="img/pizzas/carbonara.png" alt="" class='card-img'>
+          </div>
+          <div class="card-division">
+            <h3 class="card-title">Forcella</h3>
+            <span class="card-description">Ligera pero deliciosa ¡Novedad en Maximmus!</span>
+            <hr class="card-hr">
+            <h5 class="card-subtitle">Ingredientes</h5>
+            <p class="card-ingredients">Salame napoletano, champiñones, tomate tipo San Marzano, mozzarella Fior di Latte Campana, albahaca i aceite de oliva virgen extra.</p>
+            <span class="card-price">12,75€</span>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card-division">
+            <img src="img/pizzas/carbonara.png" alt="" class='card-img'>
+          </div>
+          <div class="card-division">
+            <h3 class="card-title">Forcella</h3>
+            <span class="card-description">Ligera pero deliciosa ¡Novedad en Maximmus!</span>
+            <hr class="card-hr">
+            <h5 class="card-subtitle">Ingredientes</h5>
+            <p class="card-ingredients">Salame napoletano, champiñones, tomate tipo San Marzano, mozzarella Fior di Latte Campana, albahaca i aceite de oliva virgen extra.</p>
+            <span class="card-price">12,75€</span>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card-division">
+            <img src="img/pizzas/carbonara.png" alt="" class='card-img'>
+          </div>
+          <div class="card-division">
+            <h3 class="card-title">Forcella</h3>
+            <span class="card-description">Ligera pero deliciosa ¡Novedad en Maximmus!</span>
+            <hr class="card-hr">
+            <h5 class="card-subtitle">Ingredientes</h5>
+            <p class="card-ingredients">Salame napoletano, champiñones, tomate tipo San Marzano, mozzarella Fior di Latte Campana, albahaca i aceite de oliva virgen extra.</p>
+            <span class="card-price">12,75€</span>
+          </div>
         </li>
       </ul>
-      <hr>
-      <article class="recommended">
-        <h3 class="recommended-title">Did you know we were rated by "El País", "El comidista" and Tripadvisor as one of the best Pizzerias of Spain?</h3>
-
-      </article>
-    </section>
+      <h1 class="title">Our Salads</h1>
+      <ul class="menu-cards">
+        <li class="card">
+          <div class="card-division">
+            <img src="img/pizzas/ischia.png" alt="" class='card-img'>
+          </div>
+          <div class="card-division">
+            <h3 class="card-title">Forcella</h3>
+            <span class="card-description">Ligera pero deliciosa ¡Novedad en Maximmus!</span>
+            <hr class="card-hr">
+            <h5 class="card-subtitle">Ingredientes</h5>
+            <p class="card-ingredients">Salame napoletano, champiñones, tomate tipo San Marzano, mozzarella Fior di Latte Campana, albahaca i aceite de oliva virgen extra.</p>
+            <span class="card-price">12,75€</span>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card-division">
+            <img src="img/pizzas/ischia.png" alt="" class='card-img'>
+          </div>
+          <div class="card-division">
+            <h3 class="card-title">Forcella</h3>
+            <span class="card-description">Ligera pero deliciosa ¡Novedad en Maximmus!</span>
+            <hr class="card-hr">
+            <h5 class="card-subtitle">Ingredientes</h5>
+            <p class="card-ingredients">Salame napoletano, champiñones, tomate tipo San Marzano, mozzarella Fior di Latte Campana, albahaca i aceite de oliva virgen extra.</p>
+            <span class="card-price">12,75€</span>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card-division">
+            <img src="img/pizzas/ischia.png" alt="" class='card-img'>
+          </div>
+          <div class="card-division">
+            <h3 class="card-title">Forcella</h3>
+            <span class="card-description">Ligera pero deliciosa ¡Novedad en Maximmus!</span>
+            <hr class="card-hr">
+            <h5 class="card-subtitle">Ingredientes</h5>
+            <p class="card-ingredients">Salame napoletano, champiñones, tomate tipo San Marzano, mozzarella Fior di Latte Campana, albahaca i aceite de oliva virgen extra.</p>
+            <span class="card-price">12,75€</span>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card-division">
+            <img src="img/pizzas/ischia.png" alt="" class='card-img'>
+          </div>
+          <div class="card-division">
+            <h3 class="card-title">Forcella</h3>
+            <span class="card-description">Ligera pero deliciosa ¡Novedad en Maximmus!</span>
+            <hr class="card-hr">
+            <h5 class="card-subtitle">Ingredientes</h5>
+            <p class="card-ingredients">Salame napoletano, champiñones, tomate tipo San Marzano, mozzarella Fior di Latte Campana, albahaca i aceite de oliva virgen extra.</p>
+            <span class="card-price">12,75€</span>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card-division">
+            <img src="img/pizzas/ischia.png" alt="" class='card-img'>
+          </div>
+          <div class="card-division">
+            <h3 class="card-title">Forcella</h3>
+            <span class="card-description">Ligera pero deliciosa ¡Novedad en Maximmus!</span>
+            <hr class="card-hr">
+            <h5 class="card-subtitle">Ingredientes</h5>
+            <p class="card-ingredients">Salame napoletano, champiñones, tomate tipo San Marzano, mozzarella Fior di Latte Campana, albahaca i aceite de oliva virgen extra.</p>
+            <span class="card-price">12,75€</span>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card-division">
+            <img src="img/pizzas/carbonara.png" alt="" class='card-img'>
+          </div>
+          <div class="card-division">
+            <h3 class="card-title">Forcella</h3>
+            <span class="card-description">Ligera pero deliciosa ¡Novedad en Maximmus!</span>
+            <hr class="card-hr">
+            <h5 class="card-subtitle">Ingredientes</h5>
+            <p class="card-ingredients">Salame napoletano, champiñones, tomate tipo San Marzano, mozzarella Fior di Latte Campana, albahaca i aceite de oliva virgen extra.</p>
+            <span class="card-price">12,75€</span>
+          </div>
+        </li>
+      </ul>
+    </section> -->
   </main>
 </body>
 </html>
