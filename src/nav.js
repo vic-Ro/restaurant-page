@@ -2,7 +2,7 @@ const generateNav = () => {
   const nav = document.getElementById('nav');
   const ul = document.createElement('ul');
   ul.classList.add('main-menu');
-  const fragment =  document.createDocumentFragment();
+  const fragment = document.createDocumentFragment();
   for (let i = 0; i < 3; i += 1) {
     const li = document.createElement('li');
     li.classList.add('main-menu__item');
@@ -23,6 +23,6 @@ const generateNav = () => {
   }
   ul.appendChild(fragment);
   nav.appendChild(ul);
-}
+};
 
 export default generateNav;
