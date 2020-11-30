@@ -7,6 +7,9 @@
   --light-color: #999;
   --lighter-color: #ccc;
   --white: #fff;
+  --github: #24292e;
+  --hoverLink: #f55;
+  --linkedin: #0e76a8;
 }
 
 body {
@@ -45,8 +48,9 @@ img {
 }
 
 .main-content {
-  margin-bottom: 50px;
+  min-height: 80vh;
 }
+
 /* Home page */
 
 .video-content {
@@ -138,6 +142,7 @@ img {
 
 .recommended img {
   width: 150px;
+  margin: 10px;
 }
 
 @media (max-width:768px) {
@@ -165,6 +170,7 @@ img {
   grid-gap: 10px;
   justify-content: center;
   align-content: center;
+  padding-bottom: 50px;
 }
 
 .card {
@@ -293,6 +299,9 @@ img {
   margin: 10px;
 }
 
+.fab {
+  margin-right: 10px;
+}
 @media (max-width: 1100px) {
   .contact-box {
     width: 90%;
@@ -300,5 +309,67 @@ img {
   }
   .contact-item {
     margin: 0;
+    padding-bottom: 30px;
   }
+}
+
+/*********FOOTER***********/
+.footer {
+	background-color:var(--white);
+  border-top: 5px solid var(--terciary-color);
+  bottom: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: max-content;
+  justify-content: center;
+  align-items: center;  
+  width: 100%;
+  padding-top: 20px;
+}
+@media (max-width:650px) {
+	.footer {
+        grid-template-columns: 1fr;
+    }
+}
+.footer-item {
+	padding: 1rem;
+	width: 100%;
+}
+.footer-item:nth-child(3) {
+	justify-self: center;
+	max-width: 300px;
+}
+.footer__logo {
+	height: 40px;
+	padding-right: 0.3rem;
+}
+
+.fa-linkedin {
+    color: var(--linkedin);
+    font-size: 2.5em;
+	padding: 5px;
+}
+.fa-github-square {
+    color: var(--github);
+    font-size: 2.5em;
+	padding: 5px;
+}
+.fa-envelope-square {
+    color: var(--secondary-color);
+    font-size: 2.5em;
+	padding: 5px;
+}
+.fa-linkedin:hover, .fa-github-square:hover, .fa-envelope-square:hover {
+	color: var(--hoverLink);
+	transition: 0.3s;
+}
+.madeby {
+  max-width: 150px;
+  margin: 0;
+	padding: 10px;
+}
+
+.footer-text {
+  font-size: 0.8em;
+  color: var(--terciary-color);
 }
