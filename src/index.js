@@ -2,6 +2,7 @@ import generateNav from './nav';
 import generateHome from './home';
 import generateMenu from './menu';
 import generateContact from './contact';
+import generateFooter from './footer';
 
 const handleListeners = () => {
   const menu = [...document.querySelectorAll('.main-menu__item')];
@@ -16,4 +17,6 @@ const handleListeners = () => {
 };
 
 generateNav();
+generateHome();
+generateFooter();
 handleListeners();
