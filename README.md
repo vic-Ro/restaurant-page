@@ -6,7 +6,7 @@ The aim of this project is to understand what [module](https://javascript.info/m
 
 ## LIVE DEMO
 
-Live demo of this project can be seen at this [link](https://daegudude.github.io/TOP-restaurant/).
+Live demo of this project can be seen at this [link](https://github.com/vic-Ro/restaurant-page).
 
 ## GITHUB REPOSITORY
 Repository of this project can be seen at this [link](https://github.com/vic-Ro/restaurant-page).
