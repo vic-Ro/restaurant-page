@@ -6,10 +6,10 @@ The aim of this project is to understand what [module](https://javascript.info/m
 
 ## LIVE DEMO
 
-Live demo of this project can be seen at this [link](https://vicromerodev.github.io/restaurant-page/).
+Live demo of this project can be seen at this [link]( - [Live Demo](https://vrom-dev.github.io/todo/)).
 
 ## GITHUB REPOSITORY
-Repository of this project can be seen at this [link](https://github.com/vicromerodev/restaurant-page).
+Repository of this project can be seen at this [link](https://github.com/vrom-dev/restaurant-page).
 
 ## SKILLS USED
 
